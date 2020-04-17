@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>home</title>
    <link rel="stylesheet" href="./styles.css">
    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+   <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap"
+      rel="stylesheet">
+      <!-- jquerry ui cnd -->
+      <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+      <!-- magnific pop-up CSS (carusel) -->
+      <link rel="stylesheet" href="./magnific/magnific-popup.css">
 </head>
+
 <body>
    <!-- header -->
    <header>
@@ -27,7 +35,7 @@
                <a href="#form">Portfolio</a>
             </li>
             <li>
-               <a href="#">About</a>
+               <a href="#about">About</a>
             </li>
             <li>
                <a href="#">Contact</a>
@@ -67,22 +75,309 @@
    </section>
    <!-- end of icon section -->
    <!-- skills -->
-   <section id="skills">
-      <!-- title -->
-      <div class="title">
-       <div class="title-icon">
-          <i class="fa fa-gears"></i>
-       </div>
-       <div class="title-text">
-          <h2>skills we provide</h2>
-          <p>Lorem ipsum dolor sit amet.</p>
-       </div>
-      </div>
-      <!-- title -->
    </section>
-   <!-- end of skills -->
+   <!-- end of icon section-->
+   <!--  skills-->
+   <section id="skills">
+      <!--  title-->
+      <div class="title">
+         <div class="title-icon">
+            <i class="fa fa-gears"></i>
+         </div>
+         <div class="title-text">
+            <h2 class="title-heading">Skills we provide</h2>
+            <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <!--end of  title-->
+      <div class="skills-center">
+         <article class="skill">
+            <i class="fa fa-apple"></i>
+            <h3>Apple</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, doloribus.</p>
+         </article>
+         <article class="skill">
+            <i class="fa fa-google"></i>
+            <h3>Google</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, doloribus.</p>
+         </article>
+         <article class="skill">
+            <i class="fa fa-android"></i>
+            <h3>Android</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, doloribus.</p>
+         </article>
+         <article class="skill">
+            <i class="fa fa-gear"></i>
+            <h3>Tools</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, doloribus.</p>
+         </article>
+      </div>
+   </section>
+   <!-- end of skills center -->
+   <!-- form section  -->
+   <section class="form">
+      <div class="form-content">
+         <h1 class="title">subscribe here</h1>
+         <form action="">
+            <input type="email" id="email" name="email" placeholder="your email">
+            <button type="submit" class="submit-btn">submit</button>
+         </form>
+      </div>
+   </section>
+   <!-- end of form cection  -->
+   <!-- work section -->
+   <section class="work">
+      <!--  title-->
+      <div class="title">
+         <div class="title-icon">
+            <i class="fa fa-pencil-square-o"></i>
+         </div>
+         <div class="title-text">
+            <h2 class="title-heading">future projects</h2>
+            <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <!--end of  title-->
+      <div class="work-center">
+         <div class="button-container">
+            <div class="button-group filter-button-group">
+               <button data-filter="*">all</button>
+               <button data-filter=".city">city</button>
+               <button data-filter=".country">country</button>
+               <button data-filter=".water">water</button>
+            </div>
+         </div>
+         <div class="picture-container">
+            <article class="picture-item city">
+               <img src="images/projects-city-1.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item country">
+               <img src="images/projects-country-1.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item water">
+               <img src="images/projects-water-1.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item city">
+               <img src="images/projects-city-2.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item country">
+               <img src="images/projects-country-2.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item water">
+               <img src="images/projects-water-2.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item city">
+               <img src="images/projects-city-3.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item country">
+               <img src="images/projects-country-3.jpeg" alt="work-1">
+            </article>
+            <article class="picture-item water">
+               <img src="images/projects-water-3.jpeg" alt="work-1">
+            </article>
+         </div>
+      </div>
+   </section>
+   <!-- end of work section -->
+   <!-- about -->
+   <section class="about" id="about">
+      <!--  title-->
+      <div class="title">
+         <div class="title-icon">
+            <i class="fa fa-user"></i>
+         </div>
+         <div class="title-text">
+            <h2 class="title-heading">about us</h2>
+            <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <!--end of  title-->
+      <div class="about-center">
+      <article class="about-photo">
+         <img src="./images/current-projects-1.jpeg" alt="">
+      </article>
+      <article class="about-text">
+         <div id="accordion">
+            <h3>press here for more info</h3>
+            <div class="accordion-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magni error perferendis maiores sequi debitis vero dolores aspernatur a beatae.</div>
+        
+         
+            <h3>press here for more info</h3>
+            <div class="accordion-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magni error perferendis maiores sequi debitis
+               vero dolores aspernatur a beatae.</div>
+         
+         
+            <h3>press here for more info</h3>
+            <div class="accordion-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae magni error perferendis maiores sequi debitis
+               vero dolores aspernatur a beatae.</div>
+         </div>
+      </article>
+      </div>
+   </section>
+   <!-- end of about -->
+   <!-- current projects -->
+   <section class="current" id="form">
+      <!--  title-->
+      <div class="title">
+         <div class="title-icon">
+            <i class="fa fa-image"></i>
+         </div>
+         <div class="title-text">
+            <h2 class="title-heading">current projects</h2>
+            <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <!--end of  title-->
+      <div class="current-center">
+         <article class="current-item">
+         <a href="./images/current-projects-1.jpeg">
+         <img src="./images/current-projects-1.jpeg" alt=""></a>
+         </article>
+         <article class="current-item">
+            <a href="./images/current-projects-2.jpeg">
+               <img src="./images/current-projects-2.jpeg" alt=""></a>
+         </article>
+         <article class="current-item">
+            <a href="./images/current-projects-3.jpeg">
+               <img src="./images/current-projects-3.jpeg" alt=""></a>
+         </article>
+         <article class="current-item">
+            <a href="./images/current-projects-4.jpeg">
+               <img src="./images/current-projects-4.jpeg" alt=""></a>
+         </article>
+         <article class="current-item">
+            <a href="./images/current-projects-2.jpeg">
+               <img src="./images/current-projects-2.jpeg" alt=""></a>
+         </article><article class="current-item">
+            <a href="./images/current-projects-3.jpeg">
+               <img src="./images/current-projects-3.jpeg" alt=""></a>
+         </article>
+         <article class="current-item">
+            <a href="./images/current-projects-4.jpeg">
+               <img src="./images/current-projects-4.jpeg" alt=""></a>
+         </article>
+         <article class="current-item">
+            <a href="./images/current-projects-1.jpeg">
+               <img src="./images/current-projects-1.jpeg" alt=""></a>
+         </article>
+      </div>
+   </section>
+   <!--end of current projects -->
+   <!-- numbers -->
+   <section class="numbers">
+      <article class="number">
+         <i class="fa fa-user"></i>
+         <p class='numscroller' data-min='1' data-max='67' data-delay='2' data-increment='1'>1000</p>
+         <h3>users</h3>
+      </article>
+      <article class="number">
+         <i class="fa fa-cart-plus"></i>
+         <p class='numscroller' data-min='1' data-max='98' data-delay='2' data-increment='1'>1000</p>
+         <h3>downloads</h3>
+      </article>
+      <article class="number">
+         <i class="fa fa-fire-extinguisher"></i>
+         <p class='numscroller' data-min='1' data-max='44' data-delay='2' data-increment='1'>1000</p>
+         <h3>emergencies</h3>
+      </article>
+      <article class="number">
+         <i class="fa fa-envelope"></i>
+         <p class='numscroller' data-min='1' data-max='130' data-delay='2' data-increment='1'>1000</p>
+         <h3>messages</h3>
+      </article>
+   </section>
+   <!-- end of numbers -->
+   <!-- team section -->
+   <section class="team">
+      <!--  title-->
+      <div class="title">
+         <div class="title-icon">
+            <i class="fa fa-users"></i>
+         </div>
+         <div class="title-text">
+            <h2 class="title-heading">Our Team</h2>
+            <p class="title-subheading">Lorem ipsum dolor sit amet.</p>
+         </div>
+      </div>
+      <!--end of  title-->
+      <div class="team-center">
+         <article class="team-member">
+            <img src="./images/team-1.jpg" alt="">
+            <h2>john do</h2>
+            <h5>developer</h5><hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fugit repudiandae porro expedita facilis quos, eveniet animi nesciunt veniam quidem.</p>
+            <div class="team-member-footer">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+         </article>
+         <article class="team-member">
+            <img src="./images/team-2.jpg" alt="">
+            <h2>john do</h2>
+            <h5>developer</h5>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fugit repudiandae porro expedita facilis quos,
+               eveniet animi nesciunt veniam quidem.</p>
+            <div class="team-member-footer">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+         </article>
+         <article class="team-member">
+            <img src="./images/team-3.jpg" alt="">
+            <h2>john do</h2>
+            <h5>developer</h5>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fugit repudiandae porro expedita facilis quos,
+               eveniet animi nesciunt veniam quidem.</p>
+            <div class="team-member-footer">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+         </article>
+         <article class="team-member">
+            <img src="./images/team-4.jpg" alt="">
+            <h2>john do</h2>
+            <h5>developer</h5>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia fugit repudiandae porro expedita facilis quos,
+               eveniet animi nesciunt veniam quidem.</p>
+            <div class="team-member-footer">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+            </div>
+         </article>
+      </div>
+   </section>
+   <!-- end of team section -->
+   <!-- prices section -->
+   
+   <!-- end of prices section -->
    <!-- jquery cdn -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-- jquerry UI cdn -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+   <!-- img loaded -->
+   <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+   <!-- js  -->
    <script src="./script.js"></script>
+   <!-- isotope jqerry -->
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+   <script src="./iso.js"></script>
+   <!-- magnific (carusel) -->
+   <script src="./magnific/jquery.magnific-popup.min.js"></script>
+   <!-- magnific js -->
+   <script src="./magnific/magnific.js"></script>
+   <!-- numscroller -->
+   <script src="./numscroller-1.0.js"></script>
 </body>
+
 </html>

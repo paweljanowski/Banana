@@ -8,7 +8,7 @@ $(document).ready(function () {
 
     let scroll = $(window).scrollTop();
 
-    if (scroll >= 70) {
+    if (scroll >= 0) {
       $('#nav').addClass("new-nav");
     } else {
       $('#nav').removeClass("new-nav");
@@ -30,20 +30,7 @@ $(document).ready(function () {
   //accordion
   $("#accordion").accordion({
 
-    animate: 1000
-  });
-  //progress-bars
-  $("#p-bar-1").progressbar({
-    value: 37
-  });
-  $("#p-bar-2").progressbar({
-    value: 70
-  });
-  $("#p-bar-3").progressbar({
-    value: 60
-  });
-  $("#p-bar-4").progressbar({
-    value: 80
+    animate: 700
   });
   //owl carousel
   $('.owl-carousel').owlCarousel({
