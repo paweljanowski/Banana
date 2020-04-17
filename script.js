@@ -30,7 +30,20 @@ $(document).ready(function () {
   //accordion
   $("#accordion").accordion({
 
-    animate: 700
+    animate: 1000
+  });
+  //progress-bars
+  $("#p-bar-1").progressbar({
+    value: 37
+  });
+  $("#p-bar-2").progressbar({
+    value: 70
+  });
+  $("#p-bar-3").progressbar({
+    value: 60
+  });
+  $("#p-bar-4").progressbar({
+    value: 80
   });
   //owl carousel
   $('.owl-carousel').owlCarousel({
